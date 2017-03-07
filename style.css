@@ -12,9 +12,18 @@ header{
 
 #main-navigation li {
   display:inline-block;
-  width: 33%;
+  width: 33.33%;
   text-align: center;
   height: 50px;
+  border-right: 1px solid;
+  box-sizing: border-box;
+  float:left;
+}
+
+
+/* Border des letzen Elements wird entfernt */
+#main-navigation li:last-child{
+  border-right: 0px;
 }
 
 #main-navigation a{
@@ -22,4 +31,10 @@ header{
   display: inline-block;
   height: 100%;
   line-height: 50px;
+  background-color: orange;
+}
+
+#main-navigation a:hover{
+background-color: #c38003;
+
 }
