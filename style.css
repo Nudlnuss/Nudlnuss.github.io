@@ -36,5 +36,12 @@ header{
 
 #main-navigation a:hover{
 background-color: #c38003;
+}
 
+/* Mobile Version*/
+
+@media screen and (max-width: 600px){
+  #main-navigation {
+    display: none;
+  }
 }
