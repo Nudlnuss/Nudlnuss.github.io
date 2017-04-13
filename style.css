@@ -1,16 +1,14 @@
 body{
   margin: 0;
-  background: #084a5e; /* For browsers that do not support gradients */
-  background: radial-gradient(circle, #084a5e,#095066,#03151b);
+  background: #51B5D3; /* For browsers that do not support gradients */
   font-family: sans-serif;
   min-height: 100vh;
 }
 
 .body-wrapper{
   width: 70%;
-  margin: 0 auto;
-  margin-top: 50px;
-  box-shadow: 0 0 42px 2px #000;
+  margin: 100px auto;
+  box-shadow: 0px 50px 200px -30px #000;
   min-height: 100vh;
 }
 
@@ -23,8 +21,7 @@ body{
   text-align: center;
   width: calc(100% / 3);
   box-sizing: border-box;
-  background-color: #063c4c;
-  background: linear-gradient( #03151b, #095066);
+  background-color: #DA6F70;
   float:left;
 }
 
@@ -57,11 +54,11 @@ body{
   background: white;
   width: 100%;
   min-height: 100vh;
+  padding-top: 100px;
 }
 
 .body-content p{
   margin:0;
-  padding: 100px 100px 20px 100px;
   text-align: center;
 }
 
